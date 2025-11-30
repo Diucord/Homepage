@@ -1,11 +1,11 @@
-node_modules/
-client/node_modules/
-
-# 환경 변수 파일 (API 키 포함)
 .env
 .env.local
 client/.env
 client/.env.local
+client/.env.
+node_modules/
+client/node_modules/
+
 # Mac OS
 .DS_Store
 
