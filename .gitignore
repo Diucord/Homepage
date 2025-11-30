@@ -6,3 +6,8 @@ client/node_modules/
 .env.local
 client/.env
 client/.env.local
+# Mac OS
+.DS_Store
+
+# Windows Thumbnail Cache
+Thumbs.db

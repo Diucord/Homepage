@@ -1,0 +1,139 @@
+/* src/components/Serve/Serve.css */
+
+.serve-section {
+  width: 100%;
+  padding: 120px 0;
+  background: #000;
+  color: #fff;
+}
+
+/* -------------------------- */
+/* Background / GIF container */
+/* -------------------------- */
+.serve-background {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.gladbox1-1,
+.gladbox1-2 {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.gladbox1-1 {
+  top: 30px;
+  left: 40px;
+}
+
+.gladbox1-2 {
+  bottom: 60px;
+  right: 60px;
+}
+
+.serve-video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serve-video img {
+  width: 60%;
+  max-width: 480px;
+  opacity: 0.9;
+}
+
+/* -------------------------- */
+/* Math & AI section          */
+/* -------------------------- */
+.math-box {
+  width: 100%;
+  padding: 100px 10%;
+}
+
+.math-header p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.math-header p:nth-child(1) {
+  opacity: 0.6;
+}
+
+.math-contents {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.math-text {
+  width: 45%;
+  font-size: 18px;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.math-images {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.math-img {
+  width: 100%;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.math-img.delay {
+  animation-delay: 0.3s !important;
+}
+
+/* -------------------------- */
+/* Patterns / Context / Personalization */
+/* -------------------------- */
+.serve-items {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.serve-item {
+  width: 30%;
+  text-align: left;
+  position: relative;
+}
+
+.serve-item-header {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.serve-item-body {
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.serve-vline {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 2px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.serve-vline.last {
+  display: none;
+}
